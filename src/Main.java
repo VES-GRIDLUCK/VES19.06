@@ -49,6 +49,14 @@ public class Main {
         c= a-n;
         System.out.println(Integer.toBinaryString(c));*/
         //8.
+        int t = 1;
+        if (n >= i << 16) i <<= 16;
+        if (n >= i << 8) i <<= 8;
+        if (n >= i << 4) i <<= 4;
+        if (n >= i << 2) i <<= 2;
+        if (n >= i << 1) i <<= 1;
+
+        System.out.println(Integer.toBinaryString(n));
 
 
 
